@@ -12,7 +12,7 @@
 matterbridge configuration makes use of a few concepts:
 
 - a `protocol` is a way to reach a certain chat server ; some protocols support multiple servers (eg. IRC/XMPP/Matrix), while others don't (eg. Discord/Telegram/Whatsapp)
-- an `account` is a way for your matterbridge bot to reach a specific server (usually with a username/psasword or an API token)
+- an `account` is a way for your matterbridge bot to reach a specific server (usually with a username/password or an API token)
 - a `channel` is a chatroom on a specific server
 - a `gateway` is a virtual room that aggregates several channels to relay messages between them with your matterbridge bot
 
